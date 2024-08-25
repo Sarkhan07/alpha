@@ -1,0 +1,487 @@
+
+.pagecrm_hamburger {
+    display: none; 
+    margin-top: 10.5vh;
+    z-index: 1;
+    margin-right: 10px;
+    position: absolute;
+    left: 3%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+  
+
+
+  @media (max-width: 1200px) {
+    .pagecrm_header {
+        background-color: transparent;
+    }
+    .header-info{
+        margin-top: 7vh;
+        
+    }
+
+
+    #menu_first, #menu_second, #menu_third {
+        background-color: #69559b;
+        width: 80.2%;
+        height: 10%;
+        position: absolute;
+        border-bottom: 2px solid #fff;
+        border-radius: 20px;
+        font-size: 4vh;
+        display: none;
+        z-index: 1;
+      }
+  
+      #menu_first{
+        top: 18vh;
+        left: 2%;
+        border-top: 2px solid #fff;
+        padding: 20px 0 0 0;
+    }
+    #menu_first p {
+        color: #E9DEFF;
+        box-shadow: 0px 0px 20px 0px #d695ff00;
+        box-shadow: 0px 0px 4px 0px #d695ff00;
+    }
+    #menu_second {
+        top: 25vh;
+        left: 2%;
+    }
+    #menu_third {
+        top: 32vh;
+        left: 2%;
+  
+    }
+    .btnCnt{
+        display: none;
+    }
+    .menu-img{
+        margin-left: 15px;
+    }
+    .img-menu{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        background-color: #69559b;
+        border: 2px solid #fff;
+        border-radius: 25px;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        height: 43px;
+    }
+  
+    .logo-img{
+        position: relative;
+        left: -10%;
+    }
+    .pagecrm_header-container{
+        flex-wrap: nowrap;
+    }
+    .pagecrm_contact{
+        flex-direction: row-reverse
+    }
+  
+   
+    .pagecrm_linear{
+        
+            top: 400px;
+       
+    }
+    .pagecrm_linear2{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 1500px){
+    .pagecrm_function-cards,
+    .manage-cards,
+    .group2-manage-card,
+    .business-cards,
+    .price-cards{
+        justify-content: center;
+    }
+    .container,
+    .header-container,
+    .header-info{
+        width: 90%;
+    }
+    .question-form {
+        margin-top: 50px;
+    }
+  
+    .menu {
+        
+        margin-left: 0px;
+    }
+
+  }
+  @media (max-width: 1500px){
+    .partners-cards{
+        justify-content: center;
+        flex-direction: column-reverse
+    }
+    .partners-cards-text{
+        width: 100%;
+    }
+    .wr-txt2{
+        font-size: 35px;
+    }
+    .pc1 {
+        margin-right: 0px;
+    }
+
+    
+   
+  }
+  
+  
+  @media (max-width: 1400px){
+    .useles-child-text{
+        width: 70%;
+        font-size: 30px;
+        margin-bottom: 10%;
+        line-height: 30px;
+    }
+  
+  }
+  @media (max-width: 1200px){
+    .applicform-right{
+        display: none;
+    }
+    .applicform {
+        width: 436px;
+    }
+    .applicationFORM {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pagecrm_hamburger {
+        display: block; 
+    }
+  }
+  @media (max-width: 1000px){
+    .useles-card-img {
+  
+        display: none;
+  
+    }
+    .useles-child-text{
+        width: 80%;
+        margin-bottom: 10%;
+        line-height: 30px;
+    }
+  }
+  @media (max-width: 900px){
+    .zgf,
+    .footer-texti{
+        display: none;
+    }
+    .footer-texts {
+        flex-direction: column-reverse;
+    }
+  }
+  @media (max-width: 800px){
+    .main-img-img{
+        width: 80vw;
+    }
+   
+  }
+  @media (max-width: 750px){
+   
+    .useles-child-text{
+        width: 80%;
+        font-size: 20px;
+        margin-bottom: 10%;
+        line-height: 30px;
+    }
+    .function-card-text-body-child-text{
+        font-size: 14px;
+    }
+  }
+  @media (max-width: 730px){
+  
+    .useles-card-texts {
+        height: 300px;
+    }
+  }
+  
+  
+  
+  
+  
+  
+  @media (max-width: 600px){
+    .footer-img-1,
+    .applicform,
+    .partners-img-1,
+    .application-form-text,
+    .notebook,
+    .application-form,
+    .price-card,
+    .aplicFORM,
+    .applicform-btn,
+    .applicbtn-content,
+    .wr-txt,
+    .applicform-text-2,
+    .manage-card-img{
+        width: 95%;
+    }
+
+    .application-form-in{
+        width: 90%;
+    }
+    .notebook{
+        width: 76vw;
+    }
+    .application-form {
+        width: 630px;
+    }
+    .useles-text {
+        font-size: 23px;
+    }
+    .function-card-img{
+        width: 50%;
+    }
+    .manage-card{
+        width: 45%;
+    }
+    .logo-img{
+        width: 30vw;
+        height: 2.5vh;
+    }
+
+    .manage-card-text{
+        font-size: 15px;
+    }
+    .business-text-2 {
+        margin-top: -60px;
+        font-size: 25px;
+    }
+    .business-card {
+        flex-direction: column;
+    }
+    .business-card-text1 {
+        font-size: 17px;
+        line-height: 20px;
+  
+    }
+  
+    .business-card-text2 {
+        line-height: 25px;
+    }
+    .business-card-text3,
+    .business-text-2 {
+        font-size: 14px;
+    }
+    
+    .function-card-text-body-child-text{
+        line-height: 25px;
+    }
+    .application-form-text-1 {
+  
+        font-size: 30px;
+    }
+    .applicform-text-1,
+    .manage-text,
+    .question-text {
+        font-size: 35px;
+    }
+    .application-form-text {
+        
+        font-size: 18px;
+    }
+    .application-form-in, .notebook {
+        color: #fff;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid #9400FF;
+        background-color: #4805727D;
+        padding: 6px 0 0 15px;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+   
+    .function-card-texts {
+        padding: 4px 0px 0px 15px;
+    }
+    .function-card-text-body-child-text {
+        line-height: 20px;
+    }
+    .partners-cards-txt,
+    .wr-txt,
+    .wr-txt2 {
+        font-size: 23px;
+    }
+    .funcCard{
+        height: 225px;
+    }
+    .applicform {
+        padding: 16px 10px 14px 14px;
+    }
+  
+    .question-form {
+        padding: 17px 29px 6px 10px;
+    }
+    .applicbtn-content{
+        width: 86%;
+        font-size: 14px;
+    }
+    .business-card-text3 {
+        margin-bottom: 0px;
+    }
+    .business-card-texts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .business-card-img {
+        width: 100%;
+        margin-bottom: 3%;
+    }
+    .bcfc{
+        height: 355px;
+    }
+    .applicbtn-content {
+        width: 86.5%;
+    }
+    .partners-cards-txt {
+        padding: 25px 39px 25px 0px;
+    }
+    .useles-card-texts {
+        height: 250px;
+    }
+    .application-form-select option {
+        font-size: 15px;
+    }
+    .applicform-btn {
+        width: 65%;
+    }
+    .header-container {
+        align-items: center;
+    }
+    .function-card-text-body-child-text {
+        align-items: flex-start;
+    }
+    .price-card {
+        padding: 10px;
+    }
+    .price-card-head-2 {
+        font-size: 23px;
+    }
+    .price-card-head {
+        padding: 10px;
+    }
+    .price-card-head-1 {
+        width: 70%;
+        font-size: 22px;
+    }
+    .price-card-head-2 {
+        width: 130px;
+    }
+    .price-card-texts {
+        margin-bottom: 25px;
+    }
+    .pct {
+        margin-bottom: 17px;
+    }
+    .pct2 {
+        margin-bottom: 17px;
+    }
+    .price-card-text-1-text {
+        color: #fff;
+        font-size: 20px;
+    }
+    .price-card {
+        height: 252px;
+    }
+    .application-form {
+        height: 660px;
+    }
+    .modal-content {
+        font-size: 19px;
+        margin: 51% auto;
+        padding: 9px;
+        width: 90%;
+    }
+    .footer-texts-2 {
+        width: 60.5%;
+    }
+    .abc{
+        width: 78%;
+    }
+    .applicform-text-2 {
+        font-size: 18px;
+    }
+    .applicform-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cb3{
+        width: 82.5%;
+    }
+    .question-form {
+        width: 79%;
+    }
+    .wufi {
+        height: 40px;
+        resize: none;
+    }
+    .question-form {
+        height: 416px;
+    }
+    .question {
+        margin-top: 36px;
+    }
+    .main-button {
+        width: 80%;
+    }
+
+  
+  
+  }
+  @media (max-width: 760px){
+    .price-card-head-2 {
+        font-size: 25px;
+    }
+  }
+  @media (max-width: 450px){
+    .manage-card {
+  
+        height: 330px;
+  
+    }
+    .price-card-head-2 {
+        font-size: 20px;
+    }
+    .price-card-head-1 {
+        width: 70%;
+        font-size: 18px;
+    }
+    .price-card-text-1-text {
+        color: #fff;
+        font-size: 19px;
+    }
+  }
+  @media (max-width: 395px){
+    .pc2{
+        height: 300px;
+    }
+    .pc3 {
+        height: 300px;
+    }
+  }
+  @media (max-width: 300px){
+    .function-card-text-body-child-text {
+        font-size: 11px;
+    }
+  }

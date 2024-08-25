@@ -1,0 +1,136 @@
+.button-container {
+  display: inline-block;
+  padding: 2px;
+  background: linear-gradient(93deg, #383FEC 49.3%, #23FFFF 87.76%);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 5px 0px rgba(56, 63, 236, 0.5), 0 0 17px 4px rgba(35, 255, 255, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.button-container:hover {
+  box-shadow: 0 0 15px rgba(56, 63, 236, 0.7), 0 0 30px rgba(35, 255, 255, 0.5);
+
+}
+
+.change-btn{
+  width: 161px;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px 12px 18px;
+  gap: 4px;
+  border: 5px solid transparent;
+  border-radius: 12px;
+  background-color: #1E0044;
+  color: white;
+  cursor: pointer;
+}
+.change-btn:hover{
+  background-color: #390183;
+  color: white;
+  transition: 0.3s;
+}
+
+.main-button{
+
+  width: 215px;
+  height: 25px;
+  font-size: 22px;
+  padding: 20px 40px 20px 40px;
+  gap: 10px;
+  border-radius: 13px;
+  border: 2px solid #B195FF;
+  background-color: #b195ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px #B195FF;
+  cursor: pointer;
+}
+.main-button a{
+  color: #fff;
+  text-decoration: none;
+}
+.main-button:hover{
+  box-shadow: 0px 0px 10px 0px #B195FF;
+  background-color: #B195FF;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.button-container2 {
+  display: inline-block;
+  padding: 2px;
+  background: linear-gradient(93deg, #383FEC 49.3%, #23FFFF 87.76%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.button-container2 a{
+  text-decoration: none;
+}
+
+.change-btn2 {
+  width: 131px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 10px 6px 15px;
+  gap: 4px;
+  border: 5px solid transparent;
+  border-radius: 12px;
+  background-color: #1E0044;
+  color: white;
+  cursor: pointer;
+}
+.change-btn2:hover{
+  background-color: #390183;
+  color: white;
+  transition: 0.3s;
+  
+}
+.business-card-btn{
+  justify-content: center;
+  font-size: 23px;
+}
+
+.button-container3 {
+  padding: 2px;
+  background: linear-gradient(93deg, #383FEC 49.3%, #23FFFF 87.76%);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.button-container3 a{
+  text-decoration: none;
+}
+
+.change-btn3 {
+  width: 250px;
+  font-size: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 7px 12px 15px;
+  gap: 4px;
+  border: 5px solid transparent;
+  border-radius: 12px;
+  background-color: #1E0044;
+  color: white;
+  cursor: pointer;
+}
+.change-btn3:hover{
+  background-color: #390183;
+  color: white;
+  transition: 0.3s;
+}
+.price-btn-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.price-btn-img{
+  width: 20px;
+  margin-right: 10px;
+}

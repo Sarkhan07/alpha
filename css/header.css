@@ -1,0 +1,92 @@
+ .pagecrm_header {
+  width: 100%;
+  height: 79px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1D01414D;
+}
+
+.header-container {
+  width: 1539px;
+  display: flex;
+  padding: 0 20px;
+  gap: 0;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo-img {
+  width: 218.67px;
+  height: 35px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 355px;
+  height: 44px;
+  margin-left: 158px;
+}
+
+.pagecrm_contact {
+  width: 420px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.menu-item {
+  padding: 12px 0;
+  gap: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-family: Play;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+#menu_first p {
+  color: #E9DEFF;
+  text-shadow: 0 0 20px #D795FF, 0 0 13px #D795FF;
+}
+
+.phone a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 166px;
+  text-decoration: none;
+}
+
+.menu-img,
+.contact-img,
+.logo-img,
+.number {
+  cursor: pointer;
+}
+
+.header-info {
+  display: flex;
+  width: 1378px;
+  height: 44px;
+  color: #fff;
+  align-items: center;
+}
+
+.img-arrow {
+  width: 6px;
+  height: 10px;
+}
+
+.headerInfo {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+ 
